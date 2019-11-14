@@ -172,6 +172,9 @@ function template_body_above()
 
 	echo !empty($settings['forum_width']) ? '
 <div id="wrapper" style="width: ' . $settings['forum_width'] . '">' : '', '
+	<div id="back" style="margin-bottom:5px">
+	<a href="https://www.furchtlos-wow.de" style="color:black"><h4>Zurück zur Homepage</h4></a>
+	</div>
 	<div id="header"><div class="frame">
 		<div id="top_section">
 			<h1 class="forumtitle">
